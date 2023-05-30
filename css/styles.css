@@ -1,0 +1,127 @@
+:root {
+  --brand-color: #2196f3;
+  --brand-color-body: #212121;
+  --brand-color-background: #2f303a;
+  --brand-color-description: #757575;
+  --brand-color-bright-background: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-body);
+}
+.blue-logo {
+  color: var(--brand-color);
+}
+.link {
+  color: unset;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--brand-color);
+}
+
+.link:focus {
+  color: var(--brand-color);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.title-wrapper {
+  background-color: var(--brand-color-background);
+}
+
+.button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway";
+  color: #000;
+}
+
+.first-page-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.first-page-list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--brand-color-description);
+}
+
+.first-page-mid-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.mid-section {
+  background-color: var(--brand-color-bright-background);
+}
+
+.mid-section div {
+  background-color: #ffffff;
+}
+
+.mid-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.mid-section p {
+  color: var(--brand-color-description);
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.footer {
+  background-color: var(--brand-color-background);
+  color: #ffffff;
+}
+
+.footer-logo {
+  font-size: "Raleway";
+  color: #ffffff;
+}
+
+.contact-footer {
+  color: unset;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-header {
+  color: unset;
+  text-decoration: none;
+  color: var(--brand-color-description);
+}
+
+.second-page-section {
+}
+
+.second-page-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.second-page-section p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--brand-color-description);
+}
