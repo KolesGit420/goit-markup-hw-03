@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,123 +18,127 @@
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="link logo" href="./index.html"
+    <header class="container header">
+      <nav class="nav">
+        <a class="link header-logo" href="./index.html"
           ><span class="blue-logo">Web</span>Studio</a
         >
-        <a class="link" href="/">Agencja</a>
-        <a class="link" href="./portfolio.html">Portfolio</a>
-        <a class="link" href="/">Kontakt</a>
+        <a class="link agencja" href="/">Agencja</a>
+        <a class="link portfolio" href="./portfolio.html">Portfolio</a>
+        <a class="link kontakt" href="/">Kontakt</a>
       </nav>
       <a class="link contact-header" href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
       <a class="link contact-header" href="tel:+48111111111">+48 111 111 111</a>
     </header>
-    <main>
+    <main class="container">
       <div class="title-wrapper">
         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button" class="button">Zamów usługę</button>
       </div>
-      <div>
-        <ul class="first-page-list">
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div>
+
+      <ul class="first-page-list">
+        <li>
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
+        </li>
+        <li>
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
+        </li>
+        <li>
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
+        </li>
+        <li>
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada
+          </p>
+        </li>
+      </ul>
+
+      <section>
         <h2 class="first-page-mid-title">Czym się zajmujemy</h2>
-        <img
-          src="images/img.jpg"
-          alt="hands on the keyboard"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/img2.jpg"
-          alt="telephone in the hand"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/img3.jpg"
-          alt="some colorfull shieeeet"
-          width="370"
-          height="294"
-        />
-      </div>
+        <div class="upper-section">
+          <img
+            src="images/img.jpg"
+            alt="hands on the keyboard"
+            width="370"
+            height="294"
+          />
+          <img
+            src="images/img2.jpg"
+            alt="telephone in the hand"
+            width="370"
+            height="294"
+          />
+          <img
+            src="images/img3.jpg"
+            alt="some colorfull shieeeet"
+            width="370"
+            height="294"
+          />
+        </div>
+      </section>
       <section class="mid-section">
         <h2 class="first-page-mid-title">Nasz zespół</h2>
-        <div>
-          <img
-            src="images/img4.jpg"
-            alt="happy beard man with glasses"
-            width="270"
-            height="260"
-          />
-          <h3>John Doe</h3>
-          <p>Product Designer</p>
-        </div>
-        <div>
-          <img
-            src="images/img5.jpg"
-            alt="smiling blondie"
-            width="270"
-            height="260"
-          />
-          <h3>John Doe</h3>
-          <p>Fronend Developer</p>
-        </div>
-        <div>
-          <img
-            src="images/img6.jpg"
-            alt="smiling handsome with pearl white teeth"
-            width="270"
-            height="260"
-          />
-          <h3>John Doe</h3>
-          <p>Marketing</p>
-        </div>
-        <div>
-          <img
-            src="images/img7.jpg"
-            alt="another beard guy with glasses"
-            width="270"
-            height="260"
-          />
-          <h3>John Doe</h3>
-          <p>UI Designer</p>
+        <div class="upper-section">
+          <div>
+            <img
+              src="images/img4.jpg"
+              alt="happy beard man with glasses"
+              width="270"
+              height="260"
+            />
+            <h3>John Doe</h3>
+            <p>Product Designer</p>
+          </div>
+          <div>
+            <img
+              src="images/img5.jpg"
+              alt="smiling blondie"
+              width="270"
+              height="260"
+            />
+            <h3>John Doe</h3>
+            <p>Fronend Developer</p>
+          </div>
+          <div>
+            <img
+              src="images/img6.jpg"
+              alt="smiling handsome with pearl white teeth"
+              width="270"
+              height="260"
+            />
+            <h3>John Doe</h3>
+            <p>Marketing</p>
+          </div>
+          <div>
+            <img
+              src="images/img7.jpg"
+              alt="another beard guy with glasses"
+              width="270"
+              height="260"
+            />
+            <h3>John Doe</h3>
+            <p>UI Designer</p>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <a class="link footer-logo" href="/"
         ><span class="blue-logo">Web</span>Studio</a
       >
